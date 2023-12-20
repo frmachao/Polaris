@@ -2,6 +2,13 @@ import { Box } from "@mui/material";
 import Link from "next/link";
 
 export default function Media() {
+    const mediaList = [
+    {
+      title: "代码",
+      linkText: "Github",
+      link: "https://github.com/vectorisvector/inscription",
+    },
+  ];
   return (
     <div className=" py-4">
       <div className=" text-center">
